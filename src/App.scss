@@ -1,0 +1,83 @@
+
+$bodycolor: #29957C;
+$buttoncolor: #5AE2E2;
+
+body{
+  font-family: helvetica;
+  background-color: $bodycolor;
+}
+
+button{
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: $buttoncolor; 
+  border: none;
+  width: 10em;
+}
+
+button:focus{
+  outline: 0;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #699A9F;
+}
+
+table{
+  border-collapse: collapse;
+
+}
+
+td{
+  border: 0px solid black;
+  background-color: #D2E5E5;
+  height: 4px;
+  width: 4px;
+  cursor: pointer;
+
+}
+
+.active{
+  background-color: #9D1B1B;
+}
+
+#controlPanel{
+  text-align: center;
+  background-color: #606B1A;
+  height: 620px;
+  width: 480px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-top: 10px;
+
+  display: inline-block;
+}
+
+#generationView{
+  display: inline-block;
+  background-color: $buttoncolor;
+  height: 2.5em;
+  vertical-align: middle;
+  line-height: .25em;
+  padding: 0px 6px;
+  margin-left: 10px;
+  border-radius: 2px;
+  width: 160px;
+  text-align: left;
+}
+
+#gameBoardWrapper{ 
+  box-sizing: border-box;
+  float: left;
+  margin: 10px;
+  background-color: #8A6C3F;
+  padding: 10px;
+  width: 600px  
+}
+
+h2{
+  margin-bottom: 0px;
+}
